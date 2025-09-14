@@ -40,6 +40,7 @@ const i18n = {
     one_time: 'Einmalige Spende',
     law_text:
       'Hinweis: In Portugal gilt das Gesetzesdekret Nr. 422/89 (2. Dezember) für Verlosungen. Unsere Projekte und unser Crowdfunding richten sich nach diesen Regelungen.',
+    free_entry_prefix: 'Kostenlose Teilnahme möglich:',
     ministry: 'Ministério da Administração Interna',
     project_donations: 'Projektbezogene Spenden & Crowdfunding',
     ends_in: 'Endet in:',
@@ -55,11 +56,23 @@ const i18n = {
     ],
     footer: '© 2024 Sankofa Living & Learning Projects. Alle Rechte vorbehalten.',
     built_by: 'Erstellt von Sankofa Digital OÜ in Kooperation mit Sankofa Living & Learning.',
+    built_by_prefix: 'Erstellt von',
+    built_by_suffix: 'in Kooperation mit Sankofa Living & Learning.',
     popup_title: 'Willkommen! 👋',
     popup_body: 'Diese Seite zeigt eine dynamische Übersicht über alle Projekte. Du kannst oben die Sprache wählen. Dieses Hinweis-Fenster erscheint nur beim ersten Besuch.',
     popup_close: 'Verstanden',
+    project9_points: [
+      'Wasser, Energie und Nahrung vor Ort — echte Autarkie',
+      'Gemeinschaftsbereiche: Küche, Lernen, Kultur',
+      'Etappenplan bis zu 10 autarke Mobilheime',
+    ],
   },
   en: {
+    project9_points: [
+      'Water, energy and food on site — real self‑sufficiency',
+      'Community spaces: kitchen, learning, culture',
+      'Phased plan up to 10 self‑sufficient mobile homes',
+    ],
     projects: {
       6: { title: '6. Upgrade Camp Calma Landscape' },
       8: { title: '8. Donation and Support for Nilua' },
@@ -94,7 +107,8 @@ const i18n = {
     tickets_650: '650 tickets',
     one_time: 'One‑time donation',
     law_text:
-      'Note: In Portugal, Decree‑Law No. 422/89 (2 December) applies to raffles. Our projects and crowdfunding operate in accordance with these regulations.',
+      'Note: In Portugal, Decree‑Law No. 422/89 (2 December), as amended by Decree‑Law No. 64/2015, applies to raffles. Our projects and crowdfunding operate in accordance with these regulations.',
+    free_entry_prefix: 'Free entry available:',
     ministry: 'Ministério da Administração Interna',
     project_donations: 'Project‑based Donations & Crowdfunding',
     ends_in: 'Ends in:',
@@ -109,14 +123,18 @@ const i18n = {
       'Minimal, clear design: see progress at a glance',
     ],
     footer: '© 2024 Sankofa Living & Learning Projects. All rights reserved.',
-    built_by: 'E kere site na Sankofa Digital OÜ na imekọrịta Sankofa Living & Learning.',
-    built_by: 'Wɔbɔɔ no de Sankofa Digital OÜ ne Sankofa Living & Learning bom.',
-    built_by: 'Built by Sankofa Digital OÜ in cooperation with Sankofa Living & Learning.',
+    built_by_prefix: 'Built by',
+    built_by_suffix: 'in cooperation with Sankofa Living & Learning.',
     popup_title: 'Welcome! 👋',
     popup_body: 'This page gives a dynamic overview of all projects. Use the language switcher at the top. This message appears only on your first visit.',
     popup_close: 'Got it',
   },
   pt: {
+    project9_points: [
+      'Água, energia e alimento no local — verdadeira autossuficiência',
+      'Espaços comunitários: cozinha, aprendizagem, cultura',
+      'Plano por etapas até 10 casas móveis autossuficientes',
+    ],
     projects: {
       6: { title: '6. Upgrade da Paisagem do Camp Calma' },
       8: { title: '8. Doação e apoio para Nilua' },
@@ -151,7 +169,8 @@ const i18n = {
     tickets_650: '650 bilhetes',
     one_time: 'Doação única',
     law_text:
-      'Nota: Em Portugal, o Decreto‑Lei n.º 422/89 (2 de dezembro) aplica‑se às rifas. Os nossos projetos e o crowdfunding atuam em conformidade com estas regras.',
+      'Nota: Em Portugal, está em vigor o Decreto‑Lei n.º 422/89 (2 de dezembro), com as alterações introduzidas pelo Decreto‑Lei n.º 64/2015, aplicável a rifas. Os nossos projetos e o nosso crowdfunding atuam em conformidade com estas regras.',
+    free_entry_prefix: 'Participação gratuita disponível:',
     ministry: 'Ministério da Administração Interna',
     project_donations: 'Doações por projeto & crowdfunding',
     ends_in: 'Termina em:',
@@ -167,11 +186,18 @@ const i18n = {
     ],
     footer: '© 2024 Sankofa Living & Learning Projects. Todos os direitos reservados.',
     built_by: 'Criado por Sankofa Digital OÜ em cooperação com Sankofa Living & Learning.',
+    built_by_prefix: 'Criado por',
+    built_by_suffix: 'em cooperação com Sankofa Living & Learning.',
     popup_title: 'Bem-vindo! 👋',
     popup_body: 'Esta página mostra uma visão dinâmica de todos os projetos. Use o seletor de idioma no topo. Esta mensagem aparece apenas na primeira visita.',
     popup_close: 'Entendi',
   },
   twi: {
+    project9_points: [
+      'Nsuo, tumi (ɛnergy) ne aduan wɔ beae no — ankamanhwɛ ankasa',
+      'Amammrebea: aduane fie, sukuu, amammerɛ',
+      'Nhyiamu-nhyehyɛe kɔsi mobilheim 10 a wodi wɔn ho',
+    ],
     projects: {
       6: { title: '6. Nsakrae wɔ Camp Calma asase ho' },
       8: { title: '8. Mmoa ne Sika ma Nilua' },
@@ -193,7 +219,8 @@ const i18n = {
     raffle_rule: 'Sika mmoa biara wɔ adwuma 2–6 mu de ma wo lotto‑bɔɔl ma saa adwuma no. Bɔɔl dodow gyina sika a wode to so.',
     amount_10: '€10', amount_20: '€20', amount_30: '€30', amount_100: '€100',
     yields: 'ma', tickets_20: 'Bɔɔl 20', tickets_80: 'Bɔɔl 80', tickets_160: 'Bɔɔl 160', one_time: 'Sika mmɔhoɔ pɛ', tickets_650: 'Bɔɔl 650',
-    law_text: 'Kɔkɔbɔ: Portugal mu, Decree‑Law No. 422/89 (December 2) na ɛdi raffle ho dwuma. Yɛn adwumayɛdeɛ ne crowdfunding di saa mmara no akyi.',
+    law_text: 'Kɔkɔbɔ: Portugal mu, Decree‑Law No. 422/89 (December 2), a wɔasakra no fa Decree‑Law No. 64/2015 ho, na ɛdi raffle ho dwuma. Yɛn adwumayɛdeɛ ne crowdfunding di saa mmara no akyi.',
+    free_entry_prefix: 'Wobetumi asɛɛ kwa:',
     ministry: 'Ministério da Administração Interna',
     project_donations: 'Sika mmoa ma adwuma biara & crowdfunding',
     ends_in: 'Esi mu:', donate_now: 'Tɔ mmɔhoɔ seisei', expired: 'Ewiei',
@@ -206,11 +233,18 @@ const i18n = {
       'Fɛfɛ, kɛse‑kɛse na ɛteɛteɛ: hwɛ nkɔsoɔ ntɛm',
     ],
     footer: '© 2024 Sankofa Living & Learning Projects. Nhyɛsoɔ nyinaa wɔ akyi.',
+    built_by_prefix: 'Wɔbɔe no de',
+    built_by_suffix: 'ne Sankofa Living & Learning bom.',
     popup_title: 'Akwaaba! 👋',
     popup_body: 'Kratafa yi ma adwuma nyinaa ho nhwɛsoɔ. Fa kasa‑paakyɛ no wɔ soro. Saa asɛmpaka yi bɛda so pɛ na ɛbɛda wo anim bere a edi kan.',
     popup_close: 'Ate ase',
   },
   ig: {
+    project9_points: [
+      'Mmiri, ike na nri n’otu ebe — nnwere onwe n’eziokwu',
+      'Ụlọ ọrụ obodo: kichin, ọmụmụ, omenala',
+      'Atụmatụ n’ogologo ruo ụlọ nkwakọba (mobilheim) 10 kwụsiri ike',
+    ],
     projects: {
       6: { title: '6. Mmelite ọdịdị ala Camp Calma' },
       8: { title: '8. Onyinye na nkwado maka Nilua' },
@@ -232,7 +266,8 @@ const i18n = {
     raffle_rule: 'Onyinye ọ bụla n’oru 2–6 na-enye gị tiketi maka oru ahụ. Ọnụ ọgụgụ tiketi dabere na ego ị nyere.',
     amount_10: '€10', amount_20: '€20', amount_30: '€30', amount_100: '€100',
     yields: 'na-enye', tickets_20: 'Tiketi 20', tickets_80: 'Tiketi 80', tickets_160: 'Tiketi 160', one_time: 'Onyinye otu‑oge', tickets_650: 'Tiketi 650',
-    law_text: 'Ndụmọdụ: Na Portugal, Decree‑Law No. 422/89 (2 December) metụtara raffles. Ụlọ ọrụ anyị na crowdfunding na-eso iwu ndị a.',
+    law_text: 'Ndụmọdụ: Na Portugal, Decree‑Law No. 422/89 (2 December), gbanwere site na Decree‑Law No. 64/2015, metụtara raffles. Ụlọ ọrụ anyị na crowdfunding na-eso iwu ndị a.',
+    free_entry_prefix: 'Ntinye n’efu dị:',
     ministry: 'Ministério da Administração Interna',
     project_donations: 'Onyinye dabere n’oru & crowdfunding',
     ends_in: 'Na‑akwụsị n’ime:', donate_now: 'Nyere aka ugbu a', expired: 'Agwụla',
@@ -245,11 +280,18 @@ const i18n = {
       'Imewe doro anya: hụ ihe e rụzuru ozugbo',
     ],
     footer: '© 2024 Sankofa Living & Learning Projects. Ikike niile echekwabara.',
+    built_by_prefix: 'Kere site na',
+    built_by_suffix: 'na imekọrịta Sankofa Living & Learning.',
     popup_title: 'Nnọọ! 👋',
     popup_body: 'Peeji a na-egosi nlele oru niile. Họrọ asụsụ n’elu. Ozi a na-apụta naanị ugboro mbụ i bịara.',
     popup_close: 'Eji m mara',
   },
   nl: {
+    project9_points: [
+      'Water, energie en voedsel ter plekke — echte zelfvoorziening',
+      'Gemeenschappelijke ruimtes: keuken, leren, cultuur',
+      'Gefaseerd plan tot 10 autonome mobilhomes',
+    ],
     projects: {
       6: { title: '6. Upgrade Camp Calma Landschap' },
       8: { title: '8. Donatie en steun voor Nilua' },
@@ -271,7 +313,8 @@ const i18n = {
     raffle_rule: 'Elke donatie in projecten 2–6 levert loten op voor dat project. Het aantal loten hangt af van je donatiebedrag.',
     amount_10: '€10', amount_20: '€20', amount_30: '€30', amount_100: '€100',
     yields: 'geeft', tickets_20: '20 loten', tickets_80: '80 loten', tickets_160: '160 loten', one_time: 'Eenmalige donatie', tickets_650: '650 loten',
-    law_text: 'Let op: In Portugal is het Decreto‑Lei nr. 422/89 (2 december) van toepassing op verlotingen. Onze projecten en ons crowdfunding handelen in overeenstemming met deze regels.',
+    law_text: 'Let op: In Portugal is het Decreto‑Lei nr. 422/89 (2 december), zoals gewijzigd door Decreto‑Lei nr. 64/2015, van toepassing op verlotingen. Onze projecten en ons crowdfunding handelen in overeenstemming met deze regels.',
+    free_entry_prefix: 'Gratis deelname mogelijk:',
     ministry: 'Ministério da Administração Interna',
     project_donations: 'Projectdonaties & crowdfunding',
     ends_in: 'Eindigt over:', donate_now: 'Nu doneren', expired: 'Voorbij',
@@ -285,11 +328,18 @@ const i18n = {
     ],
     footer: '© 2024 Sankofa Living & Learning Projects. Alle rechten voorbehouden.',
     built_by: 'Gemaakt door Sankofa Digital OÜ in samenwerking met Sankofa Living & Learning.',
+    built_by_prefix: 'Gemaakt door',
+    built_by_suffix: 'in samenwerking met Sankofa Living & Learning.',
     popup_title: 'Welkom! 👋',
     popup_body: 'Deze pagina geeft een dynamisch overzicht van alle projecten. Bovenin kies je de taal. Dit bericht verschijnt alleen bij je eerste bezoek.',
     popup_close: 'Begrepen',
   },
   fr: {
+    project9_points: [
+      'Eau, énergie et nourriture sur place — véritable autonomie',
+      'Espaces communautaires : cuisine, apprentissage, culture',
+      'Plan par étapes jusqu’à 10 maisons mobiles autonomes',
+    ],
     projects: {
       6: { title: '6. Amélioration du paysage de Camp Calma' },
       8: { title: '8. Don et soutien pour Nilua' },
@@ -311,7 +361,8 @@ const i18n = {
     raffle_rule: 'Chaque don dans les projets 2 à 6 vous donne des billets pour la tombola du projet. Leur nombre dépend du montant donné.',
     amount_10: '10 €', amount_20: '20 €', amount_30: '30 €', amount_100: '100 €',
     yields: 'donne', tickets_20: '20 billets', tickets_80: '80 billets', tickets_160: '160 billets', one_time: 'Don unique', tickets_650: '650 billets',
-    law_text: 'À noter : Au Portugal, le décret‑loi n° 422/89 (2 décembre) s’applique aux tombolas. Nos projets et notre crowdfunding respectent ces règles.',
+    law_text: 'À noter : Au Portugal, le décret‑loi n° 422/89 (2 décembre), tel que modifié par le décret‑loi n° 64/2015, s’applique aux tombolas. Nos projets et notre crowdfunding respectent ces règles.',
+    free_entry_prefix: 'Participation gratuite possible :',
     ministry: 'Ministério da Administração Interna',
     project_donations: 'Dons par projet & financement participatif',
     ends_in: 'Se termine dans :', donate_now: 'Donner maintenant', expired: 'Expiré',
@@ -325,6 +376,8 @@ const i18n = {
     ],
     footer: '© 2024 Sankofa Living & Learning Projects. Tous droits réservés.',
     built_by: 'Réalisé par Sankofa Digital OÜ en coopération avec Sankofa Living & Learning.',
+    built_by_prefix: 'Réalisé par',
+    built_by_suffix: 'en coopération avec Sankofa Living & Learning.',
     popup_title: 'Bienvenue ! 👋',
     popup_body: 'Cette page présente une vue dynamique de tous les projets. Choisissez la langue en haut. Ce message n’apparaît qu’à la première visite.',
     popup_close: 'Compris',
@@ -370,7 +423,7 @@ function useCountdownMap(ids) {
 
 const projects = [
   { id: 1, title: '1. Giveaway', desc: 'Ein Giveaway für die Community, um den Aufbau und die Unterstützung von Sankofa Living & Learning zu feiern.', target: 100, current: 100, tags: ['Kostenlos', 'Starthilfe', 'Creator'], link: null },
-  { id: 2, title: '2. Ausbau Quinta Calma', desc: 'Dieses Projekt dient dem Ausbau von Quinta Calma, um mehr Raum für Projekte und Retreats zu schaffen.', target: 15000, current: 8250, tags: ['Starthilfe', 'Creator', 'Crowdfunding'], link: 'https://donation.sankofa-ngo.org/b/14A5kFebJ3n317J9soe3e02' },
+  { id: 2, title: '2. Ausbau Quinta Calma', desc: 'Dieses Projekt dient dem Ausbau von Quinta Calma, um mehr Raum f��r Projekte und Retreats zu schaffen.', target: 15000, current: 8250, tags: ['Starthilfe', 'Creator', 'Crowdfunding'], link: 'https://donation.sankofa-ngo.org/b/14A5kFebJ3n317J9soe3e02' },
   { id: 3, title: '3. Mobilheim "Eban" – Schutz & Geborgenheit', desc: 'Unterstütze das Crowdfunding für das Mobilheim „Eban“. Eban (Adinkra) steht für Schutz und Geborgenheit – ein sicherer Raum für Pioniere.', target: 20000, current: 11000, tags: ['Starthilfe', 'Offgrid', 'Crowdfunding'], link: 'https://donation.sankofa-ngo.org/b/14A5kFebJ3n317J9soe3e02' },
   { id: 4, title: '4. Mobilheim "Fihankra" – Zuhause & Gemeinschaft', desc: 'Exklusiv für Mitglieder: Das Mobilheim „Fihankra“. Fihankra (Adinkra) symbolisiert Haus/Compound – Gemeinschaft, Zugehörigkeit und Sicherheit.', target: 29000, current: 15000, tags: ['Member only Giveaway', 'Neustarthilfe', 'Sicherer Hafen', 'Offgrid', 'Creator'], link: 'https://donation.sankofa-ngo.org/b/14A5kFebJ3n317J9soe3e02' },
   { id: 5, title: '5. Mobilheim "Nkyinkyim" – Bewegung & Wandel', desc: 'Für Mitglieder: Das Mobilheim „Nkyinkyim“. Nkyinkyim (Adinkra) steht für Dynamik, Veränderung und Beweglichkeit – ideal für flexible Lebenswege.', target: 25000, current: 10000, tags: ['Member only Giveaway', 'Neustarthilfe', 'Sicherer Hafen', 'Travel', 'Creator'], link: 'https://donation.sankofa-ngo.org/b/14A5kFebJ3n317J9soe3e02' },
@@ -516,6 +569,7 @@ export default function App() {
               </a>
             </div>
             <p className="text-gray-700 text-center mt-6">{t.law_text}</p>
+            <p className="text-gray-700 text-center">{t.free_entry_prefix} <a href="https://amoe.campcalma.sankofa-ngo.org/" target="_blank" rel="noreferrer" className="text-green-600 underline">amoe.campcalma.sankofa-ngo.org</a></p>
           </div>
         </section>
 
@@ -602,6 +656,13 @@ export default function App() {
                       <li><span className="font-semibold">Nachhaltiges Leben:</span> Unterstütze die Vision eines selbstbestimmten Lebens.</li>
                     </ul>
                   )}
+                  {p.id === 9 && (
+                    <ul className="text-gray-700 space-y-2 mt-4">
+                      {(t.project9_points || []).map((s, i) => (
+                        <li key={i}>{s}</li>
+                      ))}
+                    </ul>
+                  )}
 
                   {p.link && (
                     <a
@@ -637,7 +698,15 @@ export default function App() {
           <div>
             <a href="mailto:projects@sankofa-ngo.org" className="text-green-600 underline">projects@sankofa-ngo.org</a>
           </div>
-          <div>{t.built_by}</div>
+          <div>
+            {t.built_by_prefix ? (
+              <>
+                {t.built_by_prefix} <a href="https://sankofadigital.sankofa-ngo.org/" target="_blank" rel="noreferrer" className="text-green-600 underline">Sankofa Digital OÜ</a> {t.built_by_suffix}
+              </>
+            ) : (
+              t.built_by
+            )}
+          </div>
         </footer>
 
         {showPopup && (
