@@ -34,7 +34,7 @@ const i18n = {
     tickets_160: '160 Lose',
     one_time: 'Einmalige Spende',
     law_text:
-      'Das Sammeln von Spenden über Lose und Verlosungen in Portugal unterliegt strengen gesetzlichen Regelungen. Dies ist im Wesentlichen im portugiesischen Gesetzesdekret Nr. 422/89 vom 2. Dezember geregelt, das die Durchführung von Glücksspielen und Lotterien festlegt. Solche Aktivitäten benötigen eine offizielle Genehmigung der zuständigen Behörden, in der Regel des ',
+      'Hinweis: In Portugal gilt das Gesetzesdekret Nr. 422/89 (2. Dezember) für Verlosungen. Unsere Projekte und unser Crowdfunding richten sich nach diesen Regelungen.',
     ministry: 'Ministério da Administração Interna',
     project_donations: 'Projektbezogene Spenden & Crowdfunding',
     ends_in: 'Endet in:',
@@ -83,7 +83,7 @@ const i18n = {
     tickets_160: '160 tickets',
     one_time: 'One‑time donation',
     law_text:
-      'Raffles and lottery‑style fundraising in Portugal are regulated and need approval, typically by the ',
+      'Note: In Portugal, Decree‑Law No. 422/89 (2 December) applies to raffles. Our projects and crowdfunding operate in accordance with these regulations.',
     ministry: 'Ministério da Administração Interna',
     project_donations: 'Project‑based Donations & Crowdfunding',
     ends_in: 'Ends in:',
@@ -132,7 +132,7 @@ const i18n = {
     tickets_160: '160 bilhetes',
     one_time: 'Doação única',
     law_text:
-      'Arrecadações com rifas em Portugal são reguladas e precisam de autorização, normalmente do ',
+      'Nota: Em Portugal, o Decreto‑Lei n.º 422/89 (2 de dezembro) aplica‑se às rifas. Os nossos projetos e o crowdfunding atuam em conformidade com estas regras.',
     ministry: 'Ministério da Administração Interna',
     project_donations: 'Doações por projeto & crowdfunding',
     ends_in: 'Termina em:',
@@ -169,7 +169,7 @@ const i18n = {
     raffle_rule: 'Sika mmoa biara wɔ adwuma 2–6 mu de ma wo lotto‑bɔɔl ma saa adwuma no. Bɔɔl dodow gyina sika a wode to so.',
     amount_10: '€10', amount_20: '€20', amount_30: '€30', amount_100: '€100',
     yields: 'ma', tickets_20: 'Bɔɔl 20', tickets_80: 'Bɔɔl 80', tickets_160: 'Bɔɔl 160', one_time: 'Sika mmɔhoɔ pɛ',
-    law_text: 'Portugal mu raffle ne lotto yɛ mmara mu na ɛhiahia tumidi, tumi fi ',
+    law_text: 'Kɔkɔbɔ: Portugal mu, Decree‑Law No. 422/89 (December 2) na ɛdi raffle ho dwuma. Yɛn adwumayɛdeɛ ne crowdfunding di saa mmara no akyi.',
     ministry: 'Ministério da Administração Interna',
     project_donations: 'Sika mmoa ma adwuma biara & crowdfunding',
     ends_in: 'Esi mu:', donate_now: 'Tɔ mmɔhoɔ seisei', expired: 'Ewiei',
@@ -199,12 +199,12 @@ const i18n = {
     transparency_text: 'Ihe ngosi crowdfunding oge a na nke doro anya.',
     general_donations: 'Nhọrọ onyinye izugbe',
     donate_camp: '🌿 Onyinye na nkwado maka Camp Calma',
-    donate_sankofa: '��� Onyinye na nkwado maka Sankofa Living & Learning',
+    donate_sankofa: '🌍 Onyinye na nkwado maka Sankofa Living & Learning',
     how_crowdfunding: 'Otu crowdfunding si arụ ọrụ',
     raffle_rule: 'Onyinye ọ bụla n’oru 2–6 na-enye gị tiketi maka oru ahụ. Ọnụ ọgụgụ tiketi dabere na ego ị nyere.',
     amount_10: '€10', amount_20: '€20', amount_30: '€30', amount_100: '€100',
     yields: 'na-enye', tickets_20: 'Tiketi 20', tickets_80: 'Tiketi 80', tickets_160: 'Tiketi 160', one_time: 'Onyinye otu‑oge',
-    law_text: 'Mgbasa/raffle na Portugal dị n’okpuru iwu ma chọọ nkwenye site na ',
+    law_text: 'Ndụmọdụ: Na Portugal, Decree‑Law No. 422/89 (2 December) metụtara raffles. Ụlọ ọrụ anyị na crowdfunding na-eso iwu ndị a.',
     ministry: 'Ministério da Administração Interna',
     project_donations: 'Onyinye dabere n’oru & crowdfunding',
     ends_in: 'Na‑akwụsị n’ime:', donate_now: 'Nyere aka ugbu a', expired: 'Agwụla',
@@ -239,7 +239,7 @@ const i18n = {
     raffle_rule: 'Elke donatie in projecten 2–6 levert loten op voor dat project. Het aantal loten hangt af van je donatiebedrag.',
     amount_10: '€10', amount_20: '€20', amount_30: '€30', amount_100: '€100',
     yields: 'geeft', tickets_20: '20 loten', tickets_80: '80 loten', tickets_160: '160 loten', one_time: 'Eenmalige donatie',
-    law_text: 'Verlotingen in Portugal zijn gereguleerd en vereisen toestemming, meestal door ',
+    law_text: 'Let op: In Portugal is het Decreto‑Lei nr. 422/89 (2 december) van toepassing op verlotingen. Onze projecten en ons crowdfunding handelen in overeenstemming met deze regels.',
     ministry: 'Ministério da Administração Interna',
     project_donations: 'Projectdonaties & crowdfunding',
     ends_in: 'Eindigt over:', donate_now: 'Nu doneren', expired: 'Voorbij',
@@ -274,7 +274,7 @@ const i18n = {
     raffle_rule: 'Chaque don dans les projets 2 à 6 vous donne des billets pour la tombola du projet. Leur nombre dépend du montant donné.',
     amount_10: '10 €', amount_20: '20 €', amount_30: '30 €', amount_100: '100 €',
     yields: 'donne', tickets_20: '20 billets', tickets_80: '80 billets', tickets_160: '160 billets', one_time: 'Don unique',
-    law_text: 'Les tombolas au Portugal sont réglementées et nécessitent une autorisation, généralement du ',
+    law_text: 'À noter : Au Portugal, le décret‑loi n° 422/89 (2 décembre) s’applique aux tombolas. Nos projets et notre crowdfunding respectent ces règles.',
     ministry: 'Ministério da Administração Interna',
     project_donations: 'Dons par projet & financement participatif',
     ends_in: 'Se termine dans :', donate_now: 'Donner maintenant', expired: 'Expiré',
@@ -476,10 +476,7 @@ export default function App() {
                 <div className="text-sm uppercase tracking-wide opacity-80">{t.one_time}</div>
               </button>
             </div>
-            <p className="text-gray-700 text-center mt-6">
-              {t.law_text}
-              <a href="#" className="text-green-600 underline">{t.ministry}</a>.
-            </p>
+            <p className="text-gray-700 text-center mt-6">{t.law_text}</p>
           </div>
         </section>
 
