@@ -197,7 +197,7 @@ const i18n = {
     restart: 'Nkwado mbido',
     restart_text: 'Nkwado maka ndị otu, ndị okike na ndị pionia off‑grid nwere echiche ọhụrụ.',
     safe_harbor: 'Ụzọ nchekwa',
-    safe_harbor_text: 'Ebe nchekwa maka ịdịte aka, uto na echiche dị ogologo.',
+    safe_harbor_text: 'Ebe nchekwa maka ịdịte aka, uto na echiche d��� ogologo.',
     transparency: 'Ịtọgharị anya & Mmegharị',
     transparency_text: 'Ihe ngosi crowdfunding oge a na nke doro anya.',
     general_donations: 'Nhọrọ onyinye izugbe',
@@ -460,24 +460,24 @@ export default function App() {
             <p className="text-gray-700 text-center">{t.raffle_rule}</p>
             <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-6 text-center">
               <a href="https://donate.sankofa-ngo.org/b/eVqbJ2aejgTy8amgbRgfu05" target="_blank" rel="noreferrer" className="flex-1 p-4 bg-green-50 rounded-xl shadow-inner border border-green-200 block hover:bg-green-100 hover:border-green-300 cursor-pointer focus:outline-none focus:ring-4 focus:ring-green-200 transition-colors">
-                <span className="text-lg font-bold text-green-600">{t.amount_10}</span><br />
+                <span className="text-3xl font-extrabold text-green-600">{t.amount_10}</span><br />
                 <span className="text-sm text-gray-700">{t.yields}</span><br />
-                <span className="text-2xl font-extrabold text-gray-900">{t.tickets_20}</span>
+                <span className="text-xs font-medium text-gray-600">{t.tickets_20}</span>
               </a>
               <a href="https://donate.sankofa-ngo.org/b/eVqbJ2aejgTy8amgbRgfu05" target="_blank" rel="noreferrer" className="flex-1 p-4 bg-green-50 rounded-xl shadow-inner border border-green-200 block hover:bg-green-100 hover:border-green-300 cursor-pointer focus:outline-none focus:ring-4 focus:ring-green-200 transition-colors">
-                <span className="text-lg font-bold text-green-600">{t.amount_20}</span><br />
+                <span className="text-3xl font-extrabold text-green-600">{t.amount_20}</span><br />
                 <span className="text-sm text-gray-700">{t.yields}</span><br />
-                <span className="text-2xl font-extrabold text-gray-900">{t.tickets_80}</span>
+                <span className="text-xs font-medium text-gray-600">{t.tickets_80}</span>
               </a>
               <a href="https://donate.sankofa-ngo.org/b/eVqbJ2aejgTy8amgbRgfu05" target="_blank" rel="noreferrer" className="flex-1 p-4 bg-green-50 rounded-xl shadow-inner border border-green-200 block hover:bg-green-100 hover:border-green-300 cursor-pointer focus:outline-none focus:ring-4 focus:ring-green-200 transition-colors">
-                <span className="text-lg font-bold text-green-600">{t.amount_30}</span><br />
+                <span className="text-3xl font-extrabold text-green-600">{t.amount_30}</span><br />
                 <span className="text-sm text-gray-700">{t.yields}</span><br />
-                <span className="text-2xl font-extrabold text-gray-900">{t.tickets_160}</span>
+                <span className="text-xs font-medium text-gray-600">{t.tickets_160}</span>
               </a>
               <a href="https://donate.sankofa-ngo.org/b/eVqbJ2aejgTy8amgbRgfu05" target="_blank" rel="noreferrer" className="flex-1 bg-green-600 text-white rounded-2xl p-6 shadow-lg transform transition-transform duration-300 hover:scale-105 hover:bg-green-700 focus:outline-none focus:ring-4 focus:ring-green-300 ring-2 ring-green-400/60 bg-gradient-to-br from-green-600 to-green-600/95">
-                <div className="font-bold text-4xl mb-2">{t.amount_100}</div>
+                <div className="font-extrabold text-5xl mb-2">{t.amount_100}</div>
                 <div className="text-sm uppercase tracking-wide opacity-80">{t.one_time}</div>
-                <div className="text-sm font-medium opacity-70">{t.tickets_650}</div>
+                <div className="text-xs font-medium opacity-70">{t.tickets_650}</div>
               </a>
             </div>
             <p className="text-gray-700 text-center mt-6">{t.law_text}</p>
