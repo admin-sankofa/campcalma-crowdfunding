@@ -459,17 +459,17 @@ export default function App() {
             <h2 className="text-2xl font-semibold mb-4 text-green-600 text-center">{t.how_crowdfunding}</h2>
             <p className="text-gray-700 text-center">{t.raffle_rule}</p>
             <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-6 text-center">
-              <a href="https://donate.sankofa-ngo.org/b/eVqbJ2aejgTy8amgbRgfu05" target="_blank" rel="noreferrer" className="flex-1 p-4 bg-gray-50 rounded-xl shadow-inner border border-gray-200 block">
+              <a href="https://donate.sankofa-ngo.org/b/eVqbJ2aejgTy8amgbRgfu05" target="_blank" rel="noreferrer" className="flex-1 p-4 bg-green-50 rounded-xl shadow-inner border border-green-200 block hover:bg-green-100 hover:border-green-300 cursor-pointer focus:outline-none focus:ring-4 focus:ring-green-200 transition-colors">
                 <span className="text-lg font-bold text-green-600">{t.amount_10}</span><br />
                 <span className="text-sm text-gray-700">{t.yields}</span><br />
                 <span className="text-2xl font-extrabold text-gray-900">{t.tickets_20}</span>
               </a>
-              <a href="https://donate.sankofa-ngo.org/b/eVqbJ2aejgTy8amgbRgfu05" target="_blank" rel="noreferrer" className="flex-1 p-4 bg-gray-50 rounded-xl shadow-inner border border-gray-200 block">
+              <a href="https://donate.sankofa-ngo.org/b/eVqbJ2aejgTy8amgbRgfu05" target="_blank" rel="noreferrer" className="flex-1 p-4 bg-green-50 rounded-xl shadow-inner border border-green-200 block hover:bg-green-100 hover:border-green-300 cursor-pointer focus:outline-none focus:ring-4 focus:ring-green-200 transition-colors">
                 <span className="text-lg font-bold text-green-600">{t.amount_20}</span><br />
                 <span className="text-sm text-gray-700">{t.yields}</span><br />
                 <span className="text-2xl font-extrabold text-gray-900">{t.tickets_80}</span>
               </a>
-              <a href="https://donate.sankofa-ngo.org/b/eVqbJ2aejgTy8amgbRgfu05" target="_blank" rel="noreferrer" className="flex-1 p-4 bg-gray-50 rounded-xl shadow-inner border border-gray-200 block">
+              <a href="https://donate.sankofa-ngo.org/b/eVqbJ2aejgTy8amgbRgfu05" target="_blank" rel="noreferrer" className="flex-1 p-4 bg-green-50 rounded-xl shadow-inner border border-green-200 block hover:bg-green-100 hover:border-green-300 cursor-pointer focus:outline-none focus:ring-4 focus:ring-green-200 transition-colors">
                 <span className="text-lg font-bold text-green-600">{t.amount_30}</span><br />
                 <span className="text-sm text-gray-700">{t.yields}</span><br />
                 <span className="text-2xl font-extrabold text-gray-900">{t.tickets_160}</span>
