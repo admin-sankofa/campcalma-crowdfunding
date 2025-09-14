@@ -199,7 +199,7 @@ const i18n = {
     transparency_text: 'Ihe ngosi crowdfunding oge a na nke doro anya.',
     general_donations: 'Nhọrọ onyinye izugbe',
     donate_camp: '🌿 Onyinye na nkwado maka Camp Calma',
-    donate_sankofa: '🌍 Onyinye na nkwado maka Sankofa Living & Learning',
+    donate_sankofa: '��� Onyinye na nkwado maka Sankofa Living & Learning',
     how_crowdfunding: 'Otu crowdfunding si arụ ọrụ',
     raffle_rule: 'Onyinye ọ bụla n’oru 2–6 na-enye gị tiketi maka oru ahụ. Ọnụ ọgụgụ tiketi dabere na ego ị nyere.',
     amount_10: '€10', amount_20: '€20', amount_30: '€30', amount_100: '€100',
@@ -600,13 +600,28 @@ export default function App() {
         {showPopup && (
           <div className="fixed inset-0 z-50 flex items-center justify-center modal-bg">
             <div className="bg-white rounded-2xl p-6 sm:p-8 max-w-lg mx-4 shadow-2xl border border-gray-200">
-              <h3 className="text-2xl font-semibold text-green-700">{t.popup_title}</h3>
-              <p className="text-gray-700 mt-3">{t.popup_body}</p>
+              <h3 className="text-2xl font-semibold text-green-700">{i18n.en.popup_title}</h3>
+              <p className="text-gray-700 mt-3">{i18n.en.popup_body}</p>
+              <div className="mt-4 flex justify-center">
+                <select
+                  className="bg-white border border-gray-300 rounded-full px-4 py-2 text-sm shadow-sm"
+                  value={lang}
+                  onChange={(e) => setLang(e.target.value)}
+                >
+                  <option value="de">DE</option>
+                  <option value="en">EN</option>
+                  <option value="pt">PT</option>
+                  <option value="twi">TWI</option>
+                  <option value="ig">IG</option>
+                  <option value="nl">NL</option>
+                  <option value="fr">FR</option>
+                </select>
+              </div>
               <button
                 onClick={() => setShowPopup(false)}
                 className="mt-6 w-full bg-green-600 hover:bg-green-700 text-white font-bold py-2.5 px-4 rounded-full transition-all duration-300"
               >
-                {t.popup_close}
+                {i18n.en.popup_close}
               </button>
             </div>
           </div>
