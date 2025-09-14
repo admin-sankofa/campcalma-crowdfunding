@@ -289,7 +289,7 @@ const i18n = {
       'Giveaways & tombolas apportent de la valeur',
       'Design minimal et clair : progression visible d’un coup d’œil',
     ],
-    footer: '© 2024 Sankofa Living & Learning Projects. Tous droits réserv��s.',
+    footer: '© 2024 Sankofa Living & Learning Projects. Tous droits réservés.',
     popup_title: 'Bienvenue ! 👋',
     popup_body: 'Cette page présente une vue dynamique de tous les projets. Choisissez la langue en haut. Ce message n’apparaît qu’à la première visite.',
     popup_close: 'Compris',
@@ -459,26 +459,26 @@ export default function App() {
             <h2 className="text-2xl font-semibold mb-4 text-green-600 text-center">{t.how_crowdfunding}</h2>
             <p className="text-gray-700 text-center">{t.raffle_rule}</p>
             <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-6 text-center">
-              <div className="flex-1 p-4 bg-gray-50 rounded-xl shadow-inner border border-gray-200">
+              <a href="https://donate.sankofa-ngo.org/b/eVqbJ2aejgTy8amgbRgfu05" target="_blank" rel="noreferrer" className="flex-1 p-4 bg-gray-50 rounded-xl shadow-inner border border-gray-200 block">
                 <span className="text-lg font-bold text-green-600">{t.amount_10}</span><br />
                 <span className="text-sm text-gray-700">{t.yields}</span><br />
                 <span className="text-2xl font-extrabold text-gray-900">{t.tickets_20}</span>
-              </div>
-              <div className="flex-1 p-4 bg-gray-50 rounded-xl shadow-inner border border-gray-200">
+              </a>
+              <a href="https://donate.sankofa-ngo.org/b/eVqbJ2aejgTy8amgbRgfu05" target="_blank" rel="noreferrer" className="flex-1 p-4 bg-gray-50 rounded-xl shadow-inner border border-gray-200 block">
                 <span className="text-lg font-bold text-green-600">{t.amount_20}</span><br />
                 <span className="text-sm text-gray-700">{t.yields}</span><br />
                 <span className="text-2xl font-extrabold text-gray-900">{t.tickets_80}</span>
-              </div>
-              <div className="flex-1 p-4 bg-gray-50 rounded-xl shadow-inner border border-gray-200">
+              </a>
+              <a href="https://donate.sankofa-ngo.org/b/eVqbJ2aejgTy8amgbRgfu05" target="_blank" rel="noreferrer" className="flex-1 p-4 bg-gray-50 rounded-xl shadow-inner border border-gray-200 block">
                 <span className="text-lg font-bold text-green-600">{t.amount_30}</span><br />
                 <span className="text-sm text-gray-700">{t.yields}</span><br />
                 <span className="text-2xl font-extrabold text-gray-900">{t.tickets_160}</span>
-              </div>
-              <button className="flex-1 bg-green-600 text-white rounded-2xl p-6 shadow-lg transform transition-transform duration-300 hover:scale-105 hover:bg-green-700 focus:outline-none focus:ring-4 focus:ring-green-300">
+              </a>
+              <a href="https://donate.sankofa-ngo.org/b/eVqbJ2aejgTy8amgbRgfu05" target="_blank" rel="noreferrer" className="flex-1 bg-green-600 text-white rounded-2xl p-6 shadow-lg transform transition-transform duration-300 hover:scale-105 hover:bg-green-700 focus:outline-none focus:ring-4 focus:ring-green-300 ring-2 ring-green-400/60 bg-gradient-to-br from-green-600 to-green-600/95">
                 <div className="font-bold text-4xl mb-2">{t.amount_100}</div>
                 <div className="text-sm uppercase tracking-wide opacity-80">{t.one_time}</div>
                 <div className="text-sm font-medium opacity-70">{t.tickets_650}</div>
-              </button>
+              </a>
             </div>
             <p className="text-gray-700 text-center mt-6">{t.law_text}</p>
           </div>
