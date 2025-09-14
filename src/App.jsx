@@ -4,6 +4,10 @@ import './App.css';
 // Minimal i18n for the standalone page (keeps multilingual support)
 const i18n = {
   de: {
+    projects: {
+      6: { title: '6. Upgrade Camp Calma Landschaft' },
+      8: { title: '8. Spende und Unterstützung für Nilua' },
+    },
     title: 'Sankofa Living & Learning Projects',
     subtitle: 'Übersicht & Zusammenfassung',
     mission: 'Unsere Mission',
@@ -50,11 +54,16 @@ const i18n = {
       'Minimalistisches, klares Design: Jeder sieht sofort, was erreicht wurde und was noch fehlt',
     ],
     footer: '© 2024 Sankofa Living & Learning Projects. Alle Rechte vorbehalten.',
+    built_by: 'Erstellt von Sankofa Digital OÜ in Kooperation mit Sankofa Living & Learning.',
     popup_title: 'Willkommen! 👋',
     popup_body: 'Diese Seite zeigt eine dynamische Übersicht über alle Projekte. Du kannst oben die Sprache wählen. Dieses Hinweis-Fenster erscheint nur beim ersten Besuch.',
     popup_close: 'Verstanden',
   },
   en: {
+    projects: {
+      6: { title: '6. Upgrade Camp Calma Landscape' },
+      8: { title: '8. Donation and Support for Nilua' },
+    },
     title: 'Sankofa Living & Learning Projects',
     subtitle: 'Overview & Summary',
     mission: 'Our Mission',
@@ -100,11 +109,18 @@ const i18n = {
       'Minimal, clear design: see progress at a glance',
     ],
     footer: '© 2024 Sankofa Living & Learning Projects. All rights reserved.',
+    built_by: 'E kere site na Sankofa Digital OÜ na imekọrịta Sankofa Living & Learning.',
+    built_by: 'Wɔbɔɔ no de Sankofa Digital OÜ ne Sankofa Living & Learning bom.',
+    built_by: 'Built by Sankofa Digital OÜ in cooperation with Sankofa Living & Learning.',
     popup_title: 'Welcome! 👋',
     popup_body: 'This page gives a dynamic overview of all projects. Use the language switcher at the top. This message appears only on your first visit.',
     popup_close: 'Got it',
   },
   pt: {
+    projects: {
+      6: { title: '6. Upgrade da Paisagem do Camp Calma' },
+      8: { title: '8. Doação e apoio para Nilua' },
+    },
     title: 'Sankofa Living & Learning Projects',
     subtitle: 'Visão geral & resumo',
     mission: 'Nossa missão',
@@ -150,11 +166,16 @@ const i18n = {
       'Design minimalista e claro: progresso visível de imediato',
     ],
     footer: '© 2024 Sankofa Living & Learning Projects. Todos os direitos reservados.',
+    built_by: 'Criado por Sankofa Digital OÜ em cooperação com Sankofa Living & Learning.',
     popup_title: 'Bem-vindo! 👋',
     popup_body: 'Esta página mostra uma visão dinâmica de todos os projetos. Use o seletor de idioma no topo. Esta mensagem aparece apenas na primeira visita.',
     popup_close: 'Entendi',
   },
   twi: {
+    projects: {
+      6: { title: '6. Nsakrae wɔ Camp Calma asase ho' },
+      8: { title: '8. Mmoa ne Sika ma Nilua' },
+    },
     title: 'Sankofa Living & Learning Projects',
     subtitle: 'Nkyerɛmu & Kɛse‑nsɛnhunu',
     mission: 'Yɛn botaeɛ',
@@ -190,6 +211,10 @@ const i18n = {
     popup_close: 'Ate ase',
   },
   ig: {
+    projects: {
+      6: { title: '6. Mmelite ọdịdị ala Camp Calma' },
+      8: { title: '8. Onyinye na nkwado maka Nilua' },
+    },
     title: 'Sankofa Living & Learning Projects',
     subtitle: 'Nchikota & Nkọwa',
     mission: 'Ebumnuche anyi',
@@ -225,6 +250,10 @@ const i18n = {
     popup_close: 'Eji m mara',
   },
   nl: {
+    projects: {
+      6: { title: '6. Upgrade Camp Calma Landschap' },
+      8: { title: '8. Donatie en steun voor Nilua' },
+    },
     title: 'Sankofa Living & Learning Projects',
     subtitle: 'Overzicht & samenvatting',
     mission: 'Onze missie',
@@ -255,11 +284,16 @@ const i18n = {
       'Minimalistisch en helder: voortgang in één oogopslag',
     ],
     footer: '© 2024 Sankofa Living & Learning Projects. Alle rechten voorbehouden.',
+    built_by: 'Gemaakt door Sankofa Digital OÜ in samenwerking met Sankofa Living & Learning.',
     popup_title: 'Welkom! 👋',
     popup_body: 'Deze pagina geeft een dynamisch overzicht van alle projecten. Bovenin kies je de taal. Dit bericht verschijnt alleen bij je eerste bezoek.',
     popup_close: 'Begrepen',
   },
   fr: {
+    projects: {
+      6: { title: '6. Amélioration du paysage de Camp Calma' },
+      8: { title: '8. Don et soutien pour Nilua' },
+    },
     title: 'Sankofa Living & Learning Projects',
     subtitle: 'Aperçu & résumé',
     mission: 'Notre mission',
@@ -290,6 +324,7 @@ const i18n = {
       'Design minimal et clair : progression visible d’un coup d’œil',
     ],
     footer: '© 2024 Sankofa Living & Learning Projects. Tous droits réservés.',
+    built_by: 'Réalisé par Sankofa Digital OÜ en coopération avec Sankofa Living & Learning.',
     popup_title: 'Bienvenue ! 👋',
     popup_body: 'Cette page présente une vue dynamique de tous les projets. Choisissez la langue en haut. Ce message n’apparaît qu’à la première visite.',
     popup_close: 'Compris',
@@ -338,7 +373,7 @@ const projects = [
   { id: 2, title: '2. Ausbau Quinta Calma', desc: 'Dieses Projekt dient dem Ausbau von Quinta Calma, um mehr Raum für Projekte und Retreats zu schaffen.', target: 15000, current: 8250, tags: ['Starthilfe', 'Creator', 'Crowdfunding'], link: 'https://donation.sankofa-ngo.org/b/14A5kFebJ3n317J9soe3e02' },
   { id: 3, title: '3. Mobilheim "Eban" – Schutz & Geborgenheit', desc: 'Unterstütze das Crowdfunding für das Mobilheim „Eban“. Eban (Adinkra) steht für Schutz und Geborgenheit – ein sicherer Raum für Pioniere.', target: 20000, current: 11000, tags: ['Starthilfe', 'Offgrid', 'Crowdfunding'], link: 'https://donation.sankofa-ngo.org/b/14A5kFebJ3n317J9soe3e02' },
   { id: 4, title: '4. Mobilheim "Fihankra" – Zuhause & Gemeinschaft', desc: 'Exklusiv für Mitglieder: Das Mobilheim „Fihankra“. Fihankra (Adinkra) symbolisiert Haus/Compound – Gemeinschaft, Zugehörigkeit und Sicherheit.', target: 29000, current: 15000, tags: ['Member only Giveaway', 'Neustarthilfe', 'Sicherer Hafen', 'Offgrid', 'Creator'], link: 'https://donation.sankofa-ngo.org/b/14A5kFebJ3n317J9soe3e02' },
-  { id: 5, title: '5. Campervan "Nkyinkyim" – Bewegung & Wandel', desc: 'Für Mitglieder: Der Campervan „Nkyinkyim“. Nkyinkyim (Adinkra) steht für Dynamik, Veränderung und Beweglichkeit – ideal für Reisen und flexible Lebenswege.', target: 25000, current: 10000, tags: ['Member only Giveaway', 'Neustarthilfe', 'Sicherer Hafen', 'Travel', 'Creator'], link: 'https://donation.sankofa-ngo.org/b/14A5kFebJ3n317J9soe3e02' },
+  { id: 5, title: '5. Mobilheim "Nkyinkyim" – Bewegung & Wandel', desc: 'Für Mitglieder: Das Mobilheim „Nkyinkyim“. Nkyinkyim (Adinkra) steht für Dynamik, Veränderung und Beweglichkeit – ideal für flexible Lebenswege.', target: 25000, current: 10000, tags: ['Member only Giveaway', 'Neustarthilfe', 'Sicherer Hafen', 'Travel', 'Creator'], link: 'https://donation.sankofa-ngo.org/b/14A5kFebJ3n317J9soe3e02' },
   { id: 6, title: '6. Upgrade Camp Calma Landscape', desc: 'Hilf mit, die Landschaft von Camp Calma zu verbessern, um eine noch schönere und funktionalere Umgebung zu schaffen.', target: 28000, current: 9500, tags: ['Member only Giveaway', 'Neustarthilfe', 'Sicherer Hafen', 'Travel', 'Creator'], link: 'https://donation.sankofa-ngo.org/b/14A5kFebJ3n317J9soe3e02' },
   { id: 7, title: '7. Afro Village', desc: '', target: 5000, current: 2500, tags: ['Neustarthilfe', 'Sicherer Hafen', 'App', 'Community'], link: 'https://afrovillage.sankofa-ngo.org/' },
   { id: 8, title: '8. Donation and Support for Nilua', desc: '', target: 5000, current: 0, tags: ['Community', 'Support', 'Nilua', 'Music'], link: 'https://donation.sankofa-ngo.org/b/14A5kFebJ3n317J9soe3e02' },
@@ -492,9 +527,10 @@ export default function App() {
               const ytThumb = `https://img.youtube.com/vi/${YT_ID}/hqdefault.jpg`;
               const countdown = countdownMap[p.id];
               const hasCountdown = DEADLINES[p.id];
+              const displayTitle = (t.projects && t.projects[p.id] && t.projects[p.id].title) || p.title;
               return (
                 <div key={p.id} className="bg-white rounded-2xl p-6 shadow-xl border border-gray-300">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">{p.title}</h3>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">{(t.projects && t.projects[p.id] && t.projects[p.id].title) || p.title}</h3>
                   {p.desc && <p className="text-gray-700 text-sm mb-4">{p.desc}</p>}
                   {!!p.tags?.length && (
                     <p className="flex flex-wrap gap-2 text-sm text-gray-600 mb-2">
@@ -544,7 +580,7 @@ export default function App() {
                   )}
                   {p.id === 5 && (
                     <ul className="text-gray-700 space-y-2 mt-4">
-                      <li>🚐 Fiat Ducato Campervan (25.000 €)</li>
+                      <li>🏠 Mobilheim (25.000 €)</li>
                     </ul>
                   )}
                   {p.id === 6 && (
@@ -596,7 +632,13 @@ export default function App() {
         </section>
 
         {/* Footer */}
-        <footer className="mt-16 text-center text-gray-500 text-sm">{t.footer}</footer>
+        <footer className="mt-16 text-center text-gray-500 text-sm">
+          <div>{t.footer}</div>
+          <div>
+            <a href="mailto:projects@sankofa-ngo.org" className="text-green-600 underline">projects@sankofa-ngo.org</a>
+          </div>
+          <div>{t.built_by}</div>
+        </footer>
 
         {showPopup && (
           <div className="fixed inset-0 z-50 flex items-center justify-center modal-bg">
