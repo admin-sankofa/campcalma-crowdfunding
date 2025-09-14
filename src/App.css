@@ -1,0 +1,46 @@
+/* App.css — clean base for Tailwind + React */
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  /* verhindert horizontalen Rand/Scroll */
+}
+
+#root {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: unset;
+}
+
+/* Medien responsiv */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* YouTube embed container */
+.youtube-embed-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 20px;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+/* Progress helpers */
+.progress-track { width: 100%; height: 10px; background-color: #D1D5DB; border-radius: 9999px; }
+.progress-fill { height: 10px; background-color: #22C55E; border-radius: 9999px; }
+
+/* Hero background (top section) */
+.hero-background { background: center/cover no-repeat url("./assets/pictures/background.jpeg"); }
+.hero-min-h { min-height: 50vh; }
+
+/* Brand segment colors (match requested palette) */
+.brand-blue-bg { background-color: #3B82F6; }
+.brand-green-bg { background-color: #10B981; }
+.brand-yellow-bg { background-color: #F59E0B; }
+.brand-purple-bg { background-color: #A855F7; }
