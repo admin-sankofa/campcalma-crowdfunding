@@ -7,6 +7,7 @@ const i18n = {
     projects: {
       6: { title: '6. Upgrade Camp Calma Landschaft' },
       8: { title: '8. Spende und Unterstützung für Nilua' },
+      10: { title: '10. Camp Calma – Kauf, Brunnen, Solar & erste Unterkünfte (abgeschlossen)' },
     },
     title: 'Sankofa Living & Learning Projects',
     subtitle: 'Übersicht & Zusammenfassung',
@@ -39,8 +40,9 @@ const i18n = {
     tickets_650: '650 Lose',
     one_time: 'Einmalige Spende',
     law_text:
-      'Hinweis: In Portugal gilt das Gesetzesdekret Nr. 422/89 (2. Dezember) für Verlosungen. Unsere Projekte und unser Crowdfunding richten sich nach diesen Regelungen.',
+      'Hinweis: In Portugal gilt die derzeit gültige Fassung des Gesetzesdekrets Nr. 422/89 (2. Dezember) mit den Änderungen durch die Decreto‑Lei Nr. 10/95, Nr. 64/2015 und Nr. 98/2018. Unsere Projekte und unser Crowdfunding richten sich nach diesen Regelungen.',
     free_entry_prefix: 'Kostenlose Teilnahme möglich:',
+    odds_text: 'Gewinnchancen: Jedes Los hat die gleiche Gewinnchance – unabhängig davon, ob es durch eine Spende erworben oder über die kostenlose Teilnahme erhalten wurde. Mehrere Lose erhöhen die Gewinnchance entsprechend.',
     ministry: 'Ministério da Administração Interna',
     project_donations: 'Projektbezogene Spenden & Crowdfunding',
     ends_in: 'Endet in:',
@@ -66,8 +68,18 @@ const i18n = {
       'Gemeinschaftsbereiche: Küche, Lernen, Kultur',
       'Etappenplan bis zu 10 autarke Mobilheime',
     ],
+    project10_points: [
+      'Kauf Camp Calma; Brunnenbohrung; Solaranlage',
+      'Erste Unterkünfte: Wohnwagen, Bell Tent, Campervan; Vorbereitung Tiny House; Einzäunung',
+      'Privat finanziert von Gründer Daniel Duroshola; abgeschlossen; Gesamtkosten: 90.000 €',
+    ],
   },
   en: {
+    project10_points: [
+      'Purchase Camp Calma; well drilling; solar installation',
+      'First accommodations: caravan, bell tent, campervan; tiny house prep; fencing',
+      'Privately funded by founder Daniel Duroshola; completed; total cost: €90,000',
+    ],
     project9_points: [
       'Water, energy and food on site — real self‑sufficiency',
       'Community spaces: kitchen, learning, culture',
@@ -76,6 +88,7 @@ const i18n = {
     projects: {
       6: { title: '6. Upgrade Camp Calma Landscape' },
       8: { title: '8. Donation and Support for Nilua' },
+      10: { title: '10. Camp Calma – Purchase, Well, Solar & First Accommodations (completed)' },
     },
     title: 'Sankofa Living & Learning Projects',
     subtitle: 'Overview & Summary',
@@ -107,8 +120,9 @@ const i18n = {
     tickets_650: '650 tickets',
     one_time: 'One‑time donation',
     law_text:
-      'Note: In Portugal, Decree‑Law No. 422/89 (2 December), as amended by Decree‑Law No. 64/2015, applies to raffles. Our projects and crowdfunding operate in accordance with these regulations.',
+      'Note: In Portugal, the version in force of Decree‑Law No. 422/89 (2 December), with the amendments introduced by Decree‑Law Nos. 10/95, 64/2015 and 98/2018, applies to raffles. Our projects and crowdfunding operate in accordance with these regulations.',
     free_entry_prefix: 'Free entry available:',
+    odds_text: 'Odds: Every ticket has the same chance of winning, whether obtained via donation or through the free entry option. Holding multiple tickets increases your chances proportionally.',
     ministry: 'Ministério da Administração Interna',
     project_donations: 'Project‑based Donations & Crowdfunding',
     ends_in: 'Ends in:',
@@ -130,6 +144,11 @@ const i18n = {
     popup_close: 'Got it',
   },
   pt: {
+    project10_points: [
+      'Compra do Camp Calma; furo de poço; instalação solar',
+      'Primeiras acomodações: caravana, bell tent, campervan; preparação de tiny house; vedação',
+      'Financiado com recursos próprios pelo fundador Daniel Duroshola; concluído; custo total: €90.000',
+    ],
     project9_points: [
       'Água, energia e alimento no local — verdadeira autossuficiência',
       'Espaços comunitários: cozinha, aprendizagem, cultura',
@@ -138,6 +157,7 @@ const i18n = {
     projects: {
       6: { title: '6. Upgrade da Paisagem do Camp Calma' },
       8: { title: '8. Doação e apoio para Nilua' },
+      10: { title: '10. Camp Calma – Compra, furo de poço, solar e primeiras acomodações (concluído)' },
     },
     title: 'Sankofa Living & Learning Projects',
     subtitle: 'Visão geral & resumo',
@@ -169,8 +189,9 @@ const i18n = {
     tickets_650: '650 bilhetes',
     one_time: 'Doação única',
     law_text:
-      'Nota: Em Portugal, está em vigor o Decreto‑Lei n.º 422/89 (2 de dezembro), com as alterações introduzidas pelo Decreto‑Lei n.º 64/2015, aplicável a rifas. Os nossos projetos e o nosso crowdfunding atuam em conformidade com estas regras.',
+      'Versão em vigor do Decreto‑Lei n.º 422/89 (2 de dezembro), com as alterações introduzidas pelos Decreto‑Lei n.º 10/95, n.º 64/2015 e n.º 98/2018, aplicável a rifas. Os nossos projetos e o nosso crowdfunding atuam em conformidade com estas regras.',
     free_entry_prefix: 'Participação gratuita disponível:',
+    odds_text: 'Probabilidades: Cada bilhete tem a mesma hipótese de ganhar, seja adquirido por doação ou pela participação gratuita. Vários bilhetes aumentam proporcionalmente as suas hipóteses.',
     ministry: 'Ministério da Administração Interna',
     project_donations: 'Doações por projeto & crowdfunding',
     ends_in: 'Termina em:',
@@ -193,6 +214,11 @@ const i18n = {
     popup_close: 'Entendi',
   },
   twi: {
+    project10_points: [
+      'Tɔ Camp Calma; bobɔ nsutene; solar ahyehyɛe',
+      'Ofie a ɛto so kan: caravan, bell tent, campervan; tiny house ho nhyehyɛe; afasuo',
+      'Grɔndafoɔ Daniel Duroshola na ɔde ne sika yɛe; awiei; boɔ nyinaa: €90,000',
+    ],
     project9_points: [
       'Nsuo, tumi (ɛnergy) ne aduan wɔ beae no — ankamanhwɛ ankasa',
       'Amammrebea: aduane fie, sukuu, amammerɛ',
@@ -201,6 +227,7 @@ const i18n = {
     projects: {
       6: { title: '6. Nsakrae wɔ Camp Calma asase ho' },
       8: { title: '8. Mmoa ne Sika ma Nilua' },
+      10: { title: '10. Camp Calma – Tɔ asase, asutene, solar ne ofie a edi kan (ewie)' },
     },
     title: 'Sankofa Living & Learning Projects',
     subtitle: 'Nkyerɛmu & Kɛse‑nsɛnhunu',
@@ -219,8 +246,9 @@ const i18n = {
     raffle_rule: 'Sika mmoa biara wɔ adwuma 2–6 mu de ma wo lotto‑bɔɔl ma saa adwuma no. Bɔɔl dodow gyina sika a wode to so.',
     amount_10: '€10', amount_20: '€20', amount_30: '€30', amount_100: '€100',
     yields: 'ma', tickets_20: 'Bɔɔl 20', tickets_80: 'Bɔɔl 80', tickets_160: 'Bɔɔl 160', one_time: 'Sika mmɔhoɔ pɛ', tickets_650: 'Bɔɔl 650',
-    law_text: 'Kɔkɔbɔ: Portugal mu, Decree‑Law No. 422/89 (December 2), a wɔasakra no fa Decree‑Law No. 64/2015 ho, na ɛdi raffle ho dwuma. Yɛn adwumayɛdeɛ ne crowdfunding di saa mmara no akyi.',
+    law_text: 'Kɔkɔbɔ: Portugal mu, Decree‑Law No. 422/89 (December 2) a ɛda so wɔ mmara mu, a wɔasakra no wɔ Decree‑Law No. 10/95, 64/2015 ne 98/2018 mu, na ɛdi raffle ho dwuma. Yɛn adwumayɛdeɛ ne crowdfunding di saa mmara no akyi.',
     free_entry_prefix: 'Wobetumi asɛɛ kwa:',
+    odds_text: 'Akɔnnɔdie: Bɔɔl biara wɔ sukuu‑kɔ so pɛ; sɛ wowɔ bɔɔl bebree a, ɛma wo akansi kɔ so.',
     ministry: 'Ministério da Administração Interna',
     project_donations: 'Sika mmoa ma adwuma biara & crowdfunding',
     ends_in: 'Esi mu:', donate_now: 'Tɔ mmɔhoɔ seisei', expired: 'Ewiei',
@@ -240,6 +268,11 @@ const i18n = {
     popup_close: 'Ate ase',
   },
   ig: {
+    project10_points: [
+      'Zụta Camp Calma; ịkụ olulu mmiri; arụ安装 solar',
+      'Ebe obibi mbụ: karavaan, bell tent, campervan; nhazi tiny house; mgbidi/ogige',
+      'A kwụrụ ụgwọ site na ego onye guzobere ya, Daniel Duroshola; arụchara; ọnụahịa niile: €90,000',
+    ],
     project9_points: [
       'Mmiri, ike na nri n’otu ebe — nnwere onwe n’eziokwu',
       'Ụlọ ọrụ obodo: kichin, ọmụmụ, omenala',
@@ -248,6 +281,7 @@ const i18n = {
     projects: {
       6: { title: '6. Mmelite ọdịdị ala Camp Calma' },
       8: { title: '8. Onyinye na nkwado maka Nilua' },
+      10: { title: '10. Camp Calma – Azụta, olulu mmiri, solar na ebe obibi mbụ (emezuru)' },
     },
     title: 'Sankofa Living & Learning Projects',
     subtitle: 'Nchikota & Nkọwa',
@@ -266,8 +300,9 @@ const i18n = {
     raffle_rule: 'Onyinye ọ bụla n’oru 2–6 na-enye gị tiketi maka oru ahụ. Ọnụ ọgụgụ tiketi dabere na ego ị nyere.',
     amount_10: '€10', amount_20: '€20', amount_30: '€30', amount_100: '€100',
     yields: 'na-enye', tickets_20: 'Tiketi 20', tickets_80: 'Tiketi 80', tickets_160: 'Tiketi 160', one_time: 'Onyinye otu‑oge', tickets_650: 'Tiketi 650',
-    law_text: 'Ndụmọdụ: Na Portugal, Decree‑Law No. 422/89 (2 December), gbanwere site na Decree‑Law No. 64/2015, metụtara raffles. Ụlọ ọrụ anyị na crowdfunding na-eso iwu ndị a.',
+    law_text: 'Ndụmọdụ: Na Portugal, Decree‑Law No. 422/89 (2 December) dị ugbu a, gbanwere site na Decree‑Law Nos. 10/95, 64/2015 na 98/2018, metụtara raffles. Ụlọ ọrụ anyị na crowdfunding na-eso iwu ndị a.',
     free_entry_prefix: 'Ntinye n’efu dị:',
+    odds_text: 'Ogo imeri: Tiketi ọ bụla nwere ohere kwekọrọ, ma ọ bụ site n’onyinye ma ọ bụ site n’ntinye n’efu. Inwe ọtụtụ tiketi na‑abawanye ohere gị nke ọma.',
     ministry: 'Ministério da Administração Interna',
     project_donations: 'Onyinye dabere n’oru & crowdfunding',
     ends_in: 'Na‑akwụsị n’ime:', donate_now: 'Nyere aka ugbu a', expired: 'Agwụla',
@@ -287,6 +322,11 @@ const i18n = {
     popup_close: 'Eji m mara',
   },
   nl: {
+    project10_points: [
+      'Aankoop Camp Calma; putboring; zonne‑installatie',
+      'Eerste verblijven: caravan, bell tent, campervan; voorbereiding tiny house; omheining',
+      'Privégefinancierd door oprichter Daniel Duroshola; afgerond; totale kosten: €90.000',
+    ],
     project9_points: [
       'Water, energie en voedsel ter plekke — echte zelfvoorziening',
       'Gemeenschappelijke ruimtes: keuken, leren, cultuur',
@@ -295,6 +335,7 @@ const i18n = {
     projects: {
       6: { title: '6. Upgrade Camp Calma Landschap' },
       8: { title: '8. Donatie en steun voor Nilua' },
+      10: { title: '10. Camp Calma – Aankoop, putboring, zonnepanelen & eerste verblijven (afgerond)' },
     },
     title: 'Sankofa Living & Learning Projects',
     subtitle: 'Overzicht & samenvatting',
@@ -313,8 +354,9 @@ const i18n = {
     raffle_rule: 'Elke donatie in projecten 2–6 levert loten op voor dat project. Het aantal loten hangt af van je donatiebedrag.',
     amount_10: '€10', amount_20: '€20', amount_30: '€30', amount_100: '€100',
     yields: 'geeft', tickets_20: '20 loten', tickets_80: '80 loten', tickets_160: '160 loten', one_time: 'Eenmalige donatie', tickets_650: '650 loten',
-    law_text: 'Let op: In Portugal is het Decreto‑Lei nr. 422/89 (2 december), zoals gewijzigd door Decreto‑Lei nr. 64/2015, van toepassing op verlotingen. Onze projecten en ons crowdfunding handelen in overeenstemming met deze regels.',
+    law_text: 'Let op: In Portugal is de geldende versie van Decreto‑Lei nr. 422/89 (2 december), met wijzigingen door Decreto‑Lei nr. 10/95, 64/2015 en 98/2018, van toepassing op verlotingen. Onze projecten en ons crowdfunding handelen in overeenstemming met deze regels.',
     free_entry_prefix: 'Gratis deelname mogelijk:',
+    odds_text: 'Winkansen: Elk lot heeft gelijke kans, ongeacht of het via donatie of gratis deelname is verkregen. Meer loten betekent meer kans, evenredig.',
     ministry: 'Ministério da Administração Interna',
     project_donations: 'Projectdonaties & crowdfunding',
     ends_in: 'Eindigt over:', donate_now: 'Nu doneren', expired: 'Voorbij',
@@ -335,6 +377,11 @@ const i18n = {
     popup_close: 'Begrepen',
   },
   fr: {
+    project10_points: [
+      'Achat de Camp Calma; forage de puits; installation solaire',
+      'Premiers hébergements : caravane, tente cloche, campervan; préparation tiny house; clôture',
+      'Financé sur fonds propres par le fondateur Daniel Duroshola; terminé; coût total : 90 000 €',
+    ],
     project9_points: [
       'Eau, énergie et nourriture sur place — véritable autonomie',
       'Espaces communautaires : cuisine, apprentissage, culture',
@@ -343,6 +390,7 @@ const i18n = {
     projects: {
       6: { title: '6. Amélioration du paysage de Camp Calma' },
       8: { title: '8. Don et soutien pour Nilua' },
+      10: { title: '10. Camp Calma – Achat, forage, solaire et premiers hébergements (terminé)' },
     },
     title: 'Sankofa Living & Learning Projects',
     subtitle: 'Aperçu & résumé',
@@ -361,8 +409,9 @@ const i18n = {
     raffle_rule: 'Chaque don dans les projets 2 à 6 vous donne des billets pour la tombola du projet. Leur nombre dépend du montant donné.',
     amount_10: '10 €', amount_20: '20 €', amount_30: '30 €', amount_100: '100 €',
     yields: 'donne', tickets_20: '20 billets', tickets_80: '80 billets', tickets_160: '160 billets', one_time: 'Don unique', tickets_650: '650 billets',
-    law_text: 'À noter : Au Portugal, le décret‑loi n° 422/89 (2 décembre), tel que modifié par le décret‑loi n° 64/2015, s’applique aux tombolas. Nos projets et notre crowdfunding respectent ces règles.',
+    law_text: 'À noter : Au Portugal, la version en vigueur du décret‑loi n° 422/89 (2 décembre), avec les modifications des décrets‑lois n° 10/95, 64/2015 et 98/2018, s’applique aux tombolas. Nos projets et notre crowdfunding respectent ces règles.',
     free_entry_prefix: 'Participation gratuite possible :',
+    odds_text: 'Chances de gain : chaque billet a la même probabilité de gagner, qu’il soit obtenu par don ou via l’option gratuite. Plusieurs billets augmentent vos chances de manière proportionnelle.',
     ministry: 'Ministério da Administração Interna',
     project_donations: 'Dons par projet & financement participatif',
     ends_in: 'Se termine dans :', donate_now: 'Donner maintenant', expired: 'Expiré',
@@ -431,6 +480,7 @@ const projects = [
   { id: 7, title: '7. Afro Village', desc: '', target: 5000, current: 2500, tags: ['Neustarthilfe', 'Sicherer Hafen', 'App', 'Community'], link: 'https://afrovillage.sankofa-ngo.org/' },
   { id: 8, title: '8. Donation and Support for Nilua', desc: '', target: 5000, current: 0, tags: ['Community', 'Support', 'Nilua', 'Music'], link: 'https://donation.sankofa-ngo.org/b/14A5kFebJ3n317J9soe3e02' },
   { id: 9, title: '9. Sankofa Village – Ein Dorf der Autarkie', desc: 'Schritt für Schritt bauen wir ein Dorf, das Lernen, Gemeinschaft und Selbstversorgung lebt. Jeder Beitrag baut mit.', target: 1000000, current: 325000, tags: ['Community', 'Offgrid', 'Bildung', 'Nachhaltigkeit'], link: 'https://sankofavillage.sankofa-ngo.org/' },
+  { id: 10, title: '10. Camp Calma – Kauf, Brunnen, Solar & erste Unterkünfte (abgeschlossen)', desc: 'Vom Gründer Daniel Duroshola privat finanziert; Projekt abgeschlossen. Gesamtkosten bisher: 90.000 €.', target: 90000, current: 90000, tags: ['Abgeschlossen', 'Camp Calma', 'Infrastruktur', 'Selbstfinanziert'], link: null },
 ];
 
 function Tag({ children }) {
@@ -663,6 +713,13 @@ export default function App() {
                       ))}
                     </ul>
                   )}
+                  {p.id === 10 && (
+                    <ul className="text-gray-700 space-y-2 mt-4">
+                      {(t.project10_points || []).map((s, i) => (
+                        <li key={i}>{s}</li>
+                      ))}
+                    </ul>
+                  )}
 
                   {p.link && (
                     <a
@@ -691,6 +748,13 @@ export default function App() {
             </ul>
           </div>
         </section>
+
+        {/* Legal note bottom */}
+        <div className="mt-12 text-center text-gray-700 space-y-2">
+          <p>{t.law_text}</p>
+          <p>{t.free_entry_prefix} <a href="https://amoe.campcalma.sankofa-ngo.org/" target="_blank" rel="noreferrer" className="text-green-600 underline">amoe.campcalma.sankofa-ngo.org</a></p>
+          <p>{t.odds_text}</p>
+        </div>
 
         {/* Footer */}
         <footer className="mt-16 text-center text-gray-500 text-sm">
